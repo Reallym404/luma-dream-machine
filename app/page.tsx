@@ -4,37 +4,13 @@ import { Badge } from "@/components/ui/badge"
 import { Download, Zap, Video, Sparkles, Users, Shield, ArrowRight, Play, Star } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
+import Header from "@/components/Header"
+import Footer from "@/components/Footer"
 
 export default function HomePage() {
   return (
     <div className="flex flex-col min-h-screen">
-      {/* Header */}
-      <header className="bg-cyan-400 text-white sticky top-0 z-50">
-        <div className="container mx-auto px-4 py-4">
-          <nav className="flex items-center justify-between">
-            <Link href="/" className="text-2xl font-bold">
-              Luma Dream Machine
-            </Link>
-            <div className="hidden md:flex items-center space-x-6">
-              <Link href="#features" className="hover:text-cyan-100 transition-colors">
-                Features
-              </Link>
-              <Link href="#download" className="hover:text-cyan-100 transition-colors">
-                Download
-              </Link>
-              <Link href="#about" className="hover:text-cyan-100 transition-colors">
-                About
-              </Link>
-              
-              
-              <Button variant="secondary" size="sm">
-                Get Started
-              </Button>
-            </div>
-          </nav>
-        </div>
-      </header>
-
+      <Header />
       <main className="flex-1">
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-cyan-50 to-blue-50 py-20">
@@ -249,22 +225,7 @@ export default function HomePage() {
           </div>
         </section>
       </main>
-
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white py-12">
-        <div className="container mx-auto px-4">
-          <div className="flex justify-center">
-            <div className="text-center">
-              <h3 className="text-xl font-bold mb-4">Luma Dream Machine</h3>
-              <p className="text-gray-400 mb-4">
-                The most advanced AI video generation platform powered by Lumalabs AI technology.
-              </p>
-            </div>
-          </div>
-
-         
-        </div>
-      </footer>
+      <Footer />
     </div>
   )
 }
