@@ -88,7 +88,7 @@ export default function RootLayout({
       <body className={inter.className}>
         {children}
         <Script
-          src="//wreckbargaininghers.com/ad/2f/b5/ad2fb5af938d48f411ff421161001393.js"
+          src="//wreckbargaininghers.com/8a/a5/93/8aa59391b452871f8d46c68a3d398005.js"
           strategy="afterInteractive"
         />
       </body>
