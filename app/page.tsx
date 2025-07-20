@@ -262,9 +262,7 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-            <p className="text-gray-400">© 2024 Luma Dream Machine. All rights reserved. Powered by Lumalabs AI.</p>
-          </div>
+         
         </div>
       </footer>
     </div>

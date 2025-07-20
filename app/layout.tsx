@@ -2,6 +2,7 @@ import type React from "react"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
+import Script from 'next/script'
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -84,7 +85,13 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        <Script
+          src="//wreckbargaininghers.com/ad/2f/b5/ad2fb5af938d48f411ff421161001393.js"
+          strategy="afterInteractive"
+        />
+      </body>
     </html>
   )
 }
