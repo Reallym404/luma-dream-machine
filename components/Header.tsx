@@ -22,15 +22,17 @@ export default function Header() {
             <Link href="/#about" className="hover:text-cyan-100 transition-colors">
               About
             </Link>
-            <Link href="/generator" className="hover:text-cyan-100 transition-colors">
-              Generator
+            <Link href="/ray2-modify-video" className="hover:text-cyan-100 transition-colors">
+              Ray2 Modify Video
             </Link>
             <Link href="/tutorial" className="hover:text-cyan-100 transition-colors">
               Tutorial
             </Link>
-            <Button variant="secondary" size="sm">
-              Get Started
-            </Button>
+            <Link href="https://lumalabs.ai/dream-machine" target="_blank" rel="noopener noreferrer">
+              <Button variant="secondary" size="sm">
+                Get Started
+              </Button>
+            </Link>
           </div>
         </nav>
       </div>

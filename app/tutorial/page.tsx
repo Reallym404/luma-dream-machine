@@ -83,13 +83,7 @@ export default function TutorialPage() {
                       <li><b>Upgrade Your Plan:</b> Tap the lightning icon under Subscription to select a plan (Free, Lite, Plus, Unlimited) for more features and higher limits.</li>
                     </ul>
                   </section>
-                  <section>
-                    <h2 className="text-xl font-semibold mb-2">8. Learn more</h2>
-                    <ul className="list-disc ml-6 space-y-1">
-                      <li>Access the <a href="https://lumalabs.ai/learning-hub" target="_blank" className="text-cyan-600 underline">Learning Academy</a> for detailed tutorials and video walkthroughs on AI video generation.</li>
-                      <li>For support: Web: support+web@lumalabs.ai | iOS: support+ios@lumalabs.ai</li>
-                    </ul>
-                  </section>
+                  
                 </div>
               </article>
             </TabsContent>
@@ -161,13 +155,7 @@ export default function TutorialPage() {
                       <li><b>Upgrade Your Plan:</b> Click the lightning icon under Subscription to select a plan (Free, Lite, Plus, Unlimited) for more features and higher limits.</li>
                     </ul>
                   </section>
-                  <section>
-                    <h2 className="text-xl font-semibold mb-2">8. Learn more</h2>
-                    <ul className="list-disc ml-6 space-y-1">
-                      <li>Access the <a href="https://lumalabs.ai/learning-hub" target="_blank" className="text-cyan-600 underline">Learning Academy</a> for detailed tutorials and video walkthroughs on AI video generation.</li>
-                      <li>For support: Web: support+web@lumalabs.ai</li>
-                    </ul>
-                  </section>
+               
                 </div>
               </article>
             </TabsContent>
