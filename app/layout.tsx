@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Luma Dream Machine - Luma ai image to video​,AI Video Generation Tool | Lumalabs AI",
   description:
-    "Create stunning AI-generated videos with Luma Dream Machine. Powered by advanced Lumalabs AI technology for professional video creation from text prompts.",
+    "Luma dream machine,Transform Images into Videos with AI Video Generator,Lumalabs Ray2 Modify Video Example",
   keywords:
     "Lumalabs AI, Luma Dream Machine, Luma ai video generator​,AI video generation, luma ai video​,artificial intelligence, video creation, text to video, AI tools",
   authors: [{ name: "Luma Dream Machine Team" }],
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Luma Dream Machine - AI Video Generation Tool | Lumalabs AI",
     description:
-      "Create stunning AI-generated videos with Luma Dream Machine. Powered by advanced Lumalabs AI technology.",
+      "Luma dream machine,Transform Images into Videos with AI Video Generator,Lumalabs Ray2 Modify Video Example",
     url: "https://lumadreammachine.com",
     siteName: "Luma Dream Machine",
     type: "website",
