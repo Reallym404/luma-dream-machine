@@ -22,7 +22,7 @@ export default function Header() {
             <Link href="/#about" className="hover:text-cyan-100 transition-colors">
               About
             </Link>
-            <Link href="/ray2-modify-video" className="hover:text-cyan-100 transition-colors">
+            <Link href="/lumaai-video-generator" className="hover:text-cyan-100 transition-colors">
               Ray2 Modify Video
             </Link>
             <Link href="/tutorial" className="hover:text-cyan-100 transition-colors">

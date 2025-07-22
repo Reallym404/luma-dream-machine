@@ -7,48 +7,48 @@ import Link from "next/link"
 const ray2Menus = [
   {
     title: "How to Levitate with Modify Video",
-    subtitle: "Create the illusion of floating up into the sky with #Ray2 Modify Video.",
-    link: "/ray2-modify-video/levitate"
+    subtitle: "Create the illusion of floating up into the sky with Ray2 & Dream Machine Modify Video.",
+    link: "/lumaai-video-generator/levitate"
   },
   {
     title: "How to Outfit Swap with Modify Video",
-    subtitle: "Switch up your fashion look to different styles with #Ray2 Modify Video.",
-    link: "/ray2-modify-video/outfit-swap"
+    subtitle: "Switch up your fashion look to different styles with Ray2 & Dream Machine Modify Video.",
+    link: "/lumaai-video-generator/outfit-swap"
   },
   {
     title: "How to Slackline with Modify Video",
-    subtitle: "Turn park benches into a thrilling slackline walk with #Ray2 Modify Video.",
-    link: "/ray2-modify-video/slackline"
+    subtitle: "Turn park benches into a thrilling slackline walk with Ray2 & Dream Machine Modify Video.",
+    link: "/lumaai-video-generator/slackline"
   },
   {
     title: "How to Hoverboard with Modify Video",
-    subtitle: "Turn into a futuristic gliding hoverboard rider with #Ray2 Modify Video.",
-    link: "/ray2-modify-video/hoverboard"
+    subtitle: "Turn into a futuristic gliding hoverboard rider with Ray2 & Dream Machine Modify Video.",
+    link: "/lumaai-video-generator/hoverboard"
   },
   {
     title: "How to Skydive with Modify Video",
-    subtitle: "Free fall from your lawn as a virtual skydiver with #Ray2 Modify Video.",
-    link: "/ray2-modify-video/skydive"
+    subtitle: "Free fall from your lawn as a virtual skydiver with Ray2 & Dream Machine Modify Video.",
+    link: "/lumaai-video-generator/skydive"
   },
   {
     title: "How to Mermaid with Modify Video",
-    subtitle: "Reimagine anyone into a mermaid on the shore with #Ray2 Modify Video.",
-    link: "/ray2-modify-video/mermaid"
+    subtitle: "Reimagine anyone into a mermaid on the shore with Ray2 & Dream Machine Modify Video.",
+    link: "/lumaai-video-generator/mermaid"
   },
   {
     title: "How to Motorcycle with Modify Video",
-    subtitle: "Turn a stationary bike into a high-speed chase with #Ray2 Modify Video.",
-    link: "/ray2-modify-video/motorcycle"
+    subtitle: "Turn a stationary bike into a high-speed chase with Ray2 &Dream Machine Modify Video.",
+    link: "/lumaai-video-generator/motorcycle"
   },
   {
     title: "How to Pirate Ship with Modify Video",
-    subtitle: "Reimagine everyday household items into a ship at sea with #Ray2 Modify Video.",
-    link: "/ray2-modify-video/pirate-ship"
+    subtitle: "Reimagine everyday household items into a ship at sea with Ray2 & Dream Machine Modify Video.",
+    link: "/lumaai-video-generator/pirate-ship"
   },
   {
     title: "How to Superhero with Modify Video",
-    subtitle: "Transform into an epic superhero or supervillain with #Ray2 Modify Video.",
-    link: "/ray2-modify-video/superhero"
+    subtitle: "Transform into an epic superhero or supervillain with Ray2 & Dream Machine Modify Video.",
+    link: "/lumaai-video-generator/superhero"
   }
 ]
 
@@ -58,7 +58,7 @@ export default function Ray2ModifyVideoPage() {
       <Header />
       <main className="flex-1 bg-gradient-to-br from-cyan-50 to-blue-50">
         <div className="container mx-auto px-4 py-16">
-          <h1 className="text-3xl md:text-4xl font-bold text-center text-cyan-700 mb-10">Ray2 Modify Video</h1>
+          <h1 className="text-3xl md:text-4xl font-bold text-center text-cyan-700 mb-10">Lumalabs Ray2 Modify Video Example</h1>
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {ray2Menus.map((item, idx) => (
               <Link href={item.link} key={item.title} className="block h-full">

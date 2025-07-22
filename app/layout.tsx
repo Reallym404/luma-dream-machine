@@ -7,11 +7,11 @@ import Script from 'next/script'
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Luma Dream Machine - AI Video Generation Tool | Lumalabs AI",
+  title: "Luma Dream Machine - Luma ai image to video​,AI Video Generation Tool | Lumalabs AI",
   description:
     "Create stunning AI-generated videos with Luma Dream Machine. Powered by advanced Lumalabs AI technology for professional video creation from text prompts.",
   keywords:
-    "Lumalabs AI, Luma Dream Machine, AI video generation, artificial intelligence, video creation, text to video, AI tools",
+    "Lumalabs AI, Luma Dream Machine, Luma ai video generator​,AI video generation, luma ai video​,artificial intelligence, video creation, text to video, AI tools",
   authors: [{ name: "Luma Dream Machine Team" }],
   creator: "Luma Dream Machine",
   publisher: "Luma Dream Machine",
